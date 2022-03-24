@@ -24,13 +24,14 @@ namespace AspNetCoreWebServiceTest.Controllers
             Assert.Equal(expectedOutput, response.Output);
         }
 
-              [Fact]
-        public void NoInputParamGetResponseTest()
+   [Fact]
+        public void NoInputParamPostResponseTest()
         {
             HelloController controller = new HelloController();
-            var response = controller.Get().Value as Response;
-            Assert.Equal("Hello World!!!", response.output);
+            var response = controller.Post().Value as Response;
+            Assert.Equal("Hello World!", response.Output);
         }
+
 
         [Theory]
         [InlineData(null, "Hello !")]
