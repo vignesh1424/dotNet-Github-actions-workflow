@@ -1,0 +1,12 @@
+name: composite Actions Example
+on:
+  push:
+    branches: [ master, main ]
+  workflow_call:
+jobs:
+  node-js-workflow:
+    runs-on: ubuntu-latest
+    name: composite actions
+    steps:
+      - name: Install packages, test and code coverage
+        uses: vignesh1424/python-ci-workflow@main
