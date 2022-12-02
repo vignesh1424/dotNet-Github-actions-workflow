@@ -1,35 +1,3 @@
-Skip to content
-Search or jump to…
-Pull requests
-Issues
-Codespaces
-Marketplace
-Explore
- 
-@vignesh1424 
-irongut
-/
-CodeCoverageSummary
-Public
-Code
-Issues
-11
-Pull requests
-7
-Actions
-Projects
-2
-Wiki
-Security
-Insights
-CodeCoverageSummary/src/coverage.cobertura.xml
-@irongut
-irongut moved sample file
-Latest commit 53dbb76 on Apr 16, 2021
- History
- 1 contributor
-5946 lines (5946 sloc)  311 KB
-
 <?xml version="1.0" encoding="utf-8"?>
 <coverage line-rate="0.8301000000000001" branch-rate="0.6931" version="1.9" timestamp="1618014117" lines-covered="1212" lines-valid="1460" branches-covered="262" branches-valid="378">
   <sources>
